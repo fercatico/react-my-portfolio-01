@@ -8,9 +8,11 @@ const PortfolioItem = ({ item }) => {
       </div>
       <h3 className="work__title">{item.title}</h3>
       <p className="work__languages">{item.languages}</p>
-      {/*<a href="/" className="work__button">
-        Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
-      </a>*/}
+      {item.demoUrl && (
+        <a href={item.demoUrl} target="_blank" rel="noreferrer" className="work__button">
+          Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+        </a>
+      )}
     </div>
   );
 };
