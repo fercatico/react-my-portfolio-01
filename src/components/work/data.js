@@ -4,8 +4,17 @@ import Work3 from "../../assets/work3.1.jpg";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 import Work6 from "../../assets/work6.png";
+import Work99 from "../../assets/work99.png";
 
 export const projectsData = [
+  {
+    id: 6,
+    image: Work6,
+    title: "Gym WebSite",
+    languages: "*REACT *HTML *CSS *JS *TS",
+    category: "JustForFun",
+    demoUrl: "https://react-gym-ts-site-01.pages.dev/",
+  },
   {
     id: 1,
     image: Work1,
@@ -33,7 +42,7 @@ export const projectsData = [
     title: "Wordle Game",
     languages: "*REACT *HTML *CSS *JS",
     category: "JustForFun",
-    demoUrl: "https://react-wordle-01-mafc.netlify.app/"
+    demoUrl: "https://react-wordle-01-mafc.netlify.app/",
   },
   {
     id: 5,
@@ -41,15 +50,15 @@ export const projectsData = [
     title: "Hangman Game",
     languages: "*REACT *HTML *CSS *JS",
     category: "JustForFun",
-    demoUrl: "https://react-hangman-01-mafc.netlify.app/"
+    demoUrl: "https://react-hangman-01-mafc.netlify.app/",
   },
   {
-    id: 6,
-    image: Work6,
+    id: 99,
+    image: Work99,
     title: "More Projects",
     languages: "*REACT *HTML *CSS *JS *PHP",
     category: "JustForFun",
-    demoUrl: "https://github.com/fercatico?tab=repositories"
+    demoUrl: "https://github.com/fercatico?tab=repositories",
   },
 ];
 
