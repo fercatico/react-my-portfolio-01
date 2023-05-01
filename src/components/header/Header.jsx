@@ -66,7 +66,7 @@ const Header = () => {
               >
                 <i class="uil uil-briefcase-alt nav__icon"></i>Services
               </a>
-              </li>*/}
+              </li>
             <li className="nav__item">
               <a
                 href="#portfolio"
@@ -77,7 +77,7 @@ const Header = () => {
               >
                 <i class="uil uil-scenery nav__icon"></i>Portfolio
               </a>
-              </li>
+            </li>*/}
             <li className="nav__item">
               <a
                 href="#contact"

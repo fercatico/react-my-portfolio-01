@@ -6,7 +6,7 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Skills from "./components/skills/Skills";
-import Work from "./components/work/Work";
+//import Work from "./components/work/Work";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <Work />
+        {/*<Work />*/}
         <Contact />
       </main>
       <Footer />
